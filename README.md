@@ -41,7 +41,27 @@ cd segment_testing_site
 npm install
 ```
 
-## 3. Run the Development Server
+### 3. Install the Segment Snippet
+
+- [Create a web source in your Segment workspace](https://segment.com/docs/connections/sources/catalog/libraries/website/javascript/quickstart/#step-1-create-a-source-in-the-segment-app) - when you create (or change) a source in the Segment app, Segment generates a new write key for that source. You use the write key in your website code to tell Segment servers where the data is coming from.
+- Grab the latest version of the Segment snippet in the Overview tab of the source you just created.
+- Paste the snippet into the `<head>` tag within `index.html`
+```
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Segment Demo Site</title>
+    
+    <!-- Insert Segment Snippet here -->
+
+
+    <!-- End Segment Snippet -->
+
+</head>
+```
+
+## 4. Run the Development Server
 ```
 npm run dev
 ```
