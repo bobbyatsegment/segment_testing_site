@@ -1,0 +1,64 @@
+.pricing-container {
+    text-align: center;
+    padding: 50px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Grid layout for pricing cards */
+.pricing-cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+/* Pricing card */
+.pricing-card {
+    flex: 1;
+    min-width: 280px;
+    max-width: 300px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pricing-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Featured plan */
+.pricing-card.featured {
+    border: 2px solid #007bff;
+    background-color: #e7f3ff;
+}
+
+/* Price text */
+.price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #007bff;
+    margin: 10px 0;
+}
+
+/* Button */
+button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

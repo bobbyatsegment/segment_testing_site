@@ -1,0 +1,44 @@
+.user-details-compact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background: #f9f9f9;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-name {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    color: #333;
+  }
+  
+  .user-traits {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5em 1em;
+    font-size: 0.9em;
+  }
+  
+  .trait {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    padding: 0.5em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    min-width: 100px;
+    text-align: center;
+    color: #555;
+  }
+  
+  .trait strong {
+    color: #333;
+  }

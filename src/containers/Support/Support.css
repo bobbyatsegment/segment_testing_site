@@ -1,0 +1,19 @@
+.support-container {
+    text-align: center;
+    padding: 50px 20px;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .support-container h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .support-container p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  

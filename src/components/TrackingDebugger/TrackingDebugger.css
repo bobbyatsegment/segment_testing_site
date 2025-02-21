@@ -1,0 +1,88 @@
+.debugger-container {
+  background-color: #1e1e1e;
+  color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  font-family: monospace;
+  max-width: 600px;
+  margin-top: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow-x: auto;
+}
+
+.debugger-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.debugger-header h3 {
+  font-size: 1.2rem;
+}
+
+.debugger-header button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+.debugger-header button:hover {
+  background: #0056b3;
+}
+
+/* .debugger-code {
+  background-color: #2d2d2d;
+  padding: 10px;
+  border-radius: 5px;
+  white-space: pre-wrap;
+  overflow-x: auto;
+  font-size: 0.9rem;
+  
+} */
+
+.debugger-code {
+    /* flex-grow: 1; */
+    max-height: 350px;
+    overflow-y: auto;
+    background-color: #2d2d2d;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    color: #fff;
+    text-align: left;  /* Align text to the left for better readability */
+    white-space: pre-wrap;  /* Ensures it wraps properly */
+    word-break: break-word;  /* Prevents overflow issues */
+    font-family: "Fira Code", "Courier New", monospace; /* A clean monospaced font */
+}
+
+/* Adds syntax highlighting styles */
+.json-line {
+  display: block;
+  font-size: 0.9rem;
+}
+
+.json-key {
+    color: #d19a66;
+}
+
+.json-string {
+    color: #98c379;
+}
+
+.json-number {
+    color: #dcdcaa;
+}
+
+.json-true, .json-false {
+    color: #56b6c2;
+}
+
+.json-null {
+    color: #e06c75;
+}
