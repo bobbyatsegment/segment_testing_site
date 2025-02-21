@@ -1,6 +1,6 @@
 # 📘 Segment Demo Site
 
-This is a **demonstration site** meant to help become familiar with **Segment's tracking capabilities**, including **page tracking, identity tracking, abd event tracking**.
+This is a **demonstration site** meant to help become familiar with **Segment's tracking capabilities**, including **page tracking, identity tracking, and event tracking**.
 
 ## 🚀 Features
 - **User Identity Switching** → Switch between different user profiles and track identity resolution.
